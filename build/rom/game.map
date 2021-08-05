@@ -1,0 +1,1596 @@
+AREA .  .ABS.
+	RADIX HEX
+	BASE 0000
+	SIZE 0000
+	ATTRIB ABS OVR
+	GLOBALS
+		s__EMU_HEADER	0000
+		s__HEADERf	0000
+		l__CABS	0000
+		l__DABS	0000
+		l__HEAP	0000
+		s__CABS	0000
+		s__HEADER0	0000
+		l__BSEG	0000
+		s__DABS	0000
+		s__HEADER1	0000
+		l_.  .ABS.	0000
+		s__HEADER2	0000
+		s__HEADER3	0000
+		s__SFR1a	0000
+		l__GSFINAL	0000
+		s__HEADER4	0000
+		s__SFR2a	0000
+		s__SFR1b	0000
+		s__HEADER5	0000
+		s__SFR2b	0000
+		s__SFR1c	0000
+		s__HEADER6	0000
+		s__SFR2c	0000
+		s__SFR1d	0000
+		s__HEADER7	0000
+		s__SFR2d	0000
+		s__SFR1e	0000
+		l__ISEG	0000
+		l__HRAM	0000
+		s__HEADER8	0000
+		s_.  .ABS.	0000
+		s__SFR2e	0000
+		s__SFR1f	0000
+		s__HEADER9	0000
+		l__HEADER	0000
+		s__SFR2f	0000
+		s__HRAM	0000
+		s__HEADER	0000
+		s__HEADER_LCD0	0000
+		s__SFR10	0000
+		s__SFRa	0000
+		s__SFR20	0000
+		s__SFR11	0000
+		s__SFRb	0000
+		s__SFR30	0000
+		s__SFR21	0000
+		s__SFR12	0000
+		s__SFRc	0000
+		s__SFR31	0000
+		s__SFR22	0000
+		s__SFR13	0000
+		s__SFRd	0000
+		s__SFR32	0000
+		s__SFR23	0000
+		s__SFR14	0000
+		s__SFRe	0000
+		l__XSEG	0000
+		s__SFR33	0000
+		s__SFR24	0000
+		s__SFR15	0000
+		s__SFRf	0000
+		.init	0000
+		s__SFR34	0000
+		s__SFR25	0000
+		s__SFR16	0000
+		s__SFR35	0000
+		s__SFR26	0000
+		s__SFR17	0000
+		l__HEADER_LCD	0000
+		s__SFR36	0000
+		s__SFR27	0000
+		s__SFR18	0000
+		s__SFR28	0000
+		s__SFR19	0000
+		s__SFR29	0000
+		s__HEADER_LCD	0000
+		s__SFR0	0000
+		l__OVERLAY	0000
+		s__SFR1	0000
+		s__SFR2	0000
+		s__SFR3	0000
+		s__EMU_HEADER0	0000
+		s__SFR4	0000
+		s__SFR5	0000
+		s__SFR6	0000
+		s__SFR7	0000
+		l__LIT	0000
+		s__SFR8	0000
+		s__SFR9	0000
+		l__SFR	0000
+		l__EMU_HEADER	0000
+		s__HEADER10	0000
+		s__HEADERa	0000
+		s__SFR	0000
+		s__HEADER11	0000
+		s__HEADERb	0000
+		s__HEADER12	0000
+		s__HEADERc	0000
+		s__HRAM14	0000
+		s__HEADER13	0000
+		s__HEADERd	0000
+		s__HEADERe	0000
+		l__HEADER0	0001
+		l__HEADER1	0001
+		l__SFR1a	0001
+		l__SFR2a	0001
+		l__SFR1b	0001
+		l__SFR2b	0001
+		l__SFR1c	0001
+		l__SFR2c	0001
+		l__SFR1d	0001
+		l__SFR2d	0001
+		l__SFR1e	0001
+		l__SFR2e	0001
+		l__SFR1f	0001
+		l__SFR2f	0001
+		l__SFR10	0001
+		l__SFRa	0001
+		l__SFR20	0001
+		l__SFR11	0001
+		l__SFRb	0001
+		l__SFR30	0001
+		l__SFR21	0001
+		l__SFR12	0001
+		l__SFRc	0001
+		l__SFR31	0001
+		l__SFR22	0001
+		l__SFR13	0001
+		l__SFRd	0001
+		l__SFR32	0001
+		l__SFR23	0001
+		l__SFR14	0001
+		l__SFRe	0001
+		l__SFR33	0001
+		l__SFR24	0001
+		l__SFR15	0001
+		l__SFRf	0001
+		l__SFR34	0001
+		l__SFR25	0001
+		l__SFR16	0001
+		l__SFR35	0001
+		l__SFR26	0001
+		l__SFR17	0001
+		l__SFR36	0001
+		l__SFR27	0001
+		l__SFR18	0001
+		l__SFR28	0001
+		l__SFR19	0001
+		l__SFR29	0001
+		l__GSINITTAIL	0001
+		l__SFR0	0001
+		l__SFR1	0001
+		l__SFR2	0001
+		l__SFR3	0001
+		l__SFR4	0001
+		l__SFR5	0001
+		l__SFR6	0001
+		l__SFR7	0001
+		l__SFR8	0001
+		l__SFR9	0001
+		l__HEADER10	0001
+		l__HEADERb	0001
+		l__HEADERc	0001
+		l__HRAM14	0001
+		l__HEADER13	0001
+		l__HEADERd	0001
+		l__HEADERf	0001
+		l__HEADER11	0002
+		l__HEADERe	0002
+		l__HEADER_LCD0	0003
+		l__EMU_HEADER0	0003
+		l__HEADERa	0003
+		l__HEADER9	0006
+		l__HEADER3	0008
+		l__HEADER4	0008
+		l__HEADER5	0008
+		l__HEADER6	0008
+		l__HEADER2	0017
+		l__HEADER7	001A
+		l__HEADER8	0034
+		l__BSS	005A
+		l__HEADER12	0083
+		s__CODE	0200
+		l__HOME	0219
+		l__BASE	026D
+		l__GSINIT	0507
+		l__DATA	0E1E
+		l__CODE_5	1FD6
+		l__CODE_6	2287
+		l__CODE	2B65
+		s__HOME	2D65
+		s__BASE	2F7E
+		s__LIT	31EB
+		s__GSINIT	31EB
+		l__CODE_4	33CD
+		l__CODE_1	34F1
+		s__GSINITTAIL	36F2
+		s__GSFINAL	36F3
+		s__CODE_1	4000
+		s__CODE_4	4000
+		s__CODE_5	4000
+		s__CODE_6	4000
+		s__BSEG	73CD
+		s__ISEG	73CD
+		s__XSEG	73CD
+		s__OVERLAY	73CD
+		.OAM	C000
+		s__DATA	C0A0
+		s__BSS	CEBE
+		s__HEAP	CF18
+		.STACK	E000
+		.refresh_OAM	FF80
+AREA _CODE
+	RADIX HEX
+	BASE 0200
+	SIZE 2B65
+	ATTRIB REL CON
+	GLOBALS
+		_UpdateActors	0200
+		_ActorsInit	04AB
+		_ActivateActor	04E8
+		_DeactivateActor	04FC
+		_DeactivateActiveActor	0510
+		_ActorAtTile	05A3
+		_ActorAt1x2Tile	05C3
+		_ActorAt1x3Tile	05E3
+		_ActorAt3x1Tile	0603
+		_ActorOverlapsPlayer	0623
+		_ActorInFrontOfActor	063A
+		_CheckCollisionInDirection	0651
+		_InitPlayer	0675
+		_ActorRunScript	0683
+		_ActorRunCollisionScripts	06BA
+		_SetBankedBkgData	06C8
+		_SetBankedSpriteData	06EB
+		_ReadBankedUBYTE	070B
+		_ReadBankedBankPtr	0721
+		_MemcpyBanked	0764
+		_PushBank	0787
+		_PopBank	07A5
+		_UpdateCamera	07CD
+		_TileAt	090A
+		_TileAt2x1	0965
+		_TileAt2x2	09D0
+		_SetScene	0A5B
+		_vbl_update	0A6A
+		_lcd_update	0A9B
+		_core_start	0AC9
+		_LoadTiles	0DA3
+		_LoadImage	0DEF
+		_LoadImageAttr	0EA0
+		_LoadPalette	0ED0
+		_LoadUIPalette	0FEB
+		_LoadSpritePalette	1038
+		_LoadPlayerSpritePalette	1085
+		_LoadSprite	10D2
+		_LoadScene	1141
+		_FadeInit	1905
+		_fade_speeds	190E
+		_FadeIn	1915
+		_FadeOut	1923
+		_FadeUpdate	1931
+		_ApplyPaletteChange	193F
+		_FadeSetSpeed	194D
+		_IsFading	195E
+		gbt_get_pattern_ptr_banked	1980
+		_gbt_play	199F
+		_gbt_pause	1A5A
+		_gbt_loop	1A6B
+		_gbt_stop	1A72
+		_gbt_enable_channels	1A7D
+		_gbt_update	1A84
+		_HandleInputScripts	1B89
+		_RemoveInputScripts	1BFD
+		_DespRight	1C38
+		_Lt16	1C4D
+		_Gt16	1C76
+		_SeedRand	1C9F
+		_MusicPlay	1CAC
+		_MusicStop	1D18
+		_MusicUpdate	1D2C
+		_SoundPlayTone	1D5A
+		_SoundStopTone	1D8B
+		_SoundPlayBeep	1D90
+		_SoundPlayCrash	1DB2
+		_ProjectilesInit	1DD1
+		_WeaponAttack	1DDF
+		_ProjectileLaunch	1E04
+		_UpdateProjectiles	1E46
+		_ScriptRunnerInit	1E54
+		_ScriptStart	1E57
+		_ScriptStartBg	1E8F
+		_ScriptRunnerUpdate	1F59
+		_ScriptTimerUpdate	20CA
+		_ScriptSaveCtx	20D8
+		_ScriptRestoreCtx	2128
+		_ScriptCtxPoolNext	21AF
+		_ScriptCtxPoolReturn	21C0
+		_ScriptCtxPoolReset	2204
+		_SetTile	2241
+		_WaitForMode0Or1	2258
+		_ScrollUpdateRowR	2261
+		_ScrollUpdateRowWithDelay	22EB
+		_ScrollUpdateRow	23D7
+		_ScrollUpdateColumnR	251F
+		_ScrollUpdateColumnWithDelay	25B5
+		_RefreshScroll	269E
+		_InitScroll	26AC
+		_RenderScreen	26C7
+		_SpritePoolReset	278C
+		_SpritePoolReturn	279A
+		_SpritePoolNext	27AE
+		_StackPush	27BF
+		_StackPop	27D1
+		_StackShift	27E7
+		_TriggerAtTile	284C
+		_TriggerRunScript	2868
+		_ActivateTriggerAt	2886
+		_UIInit	28D2
+		_UIUpdate	28EA
+		_UIReset	28F8
+		_UIDrawFrame	2906
+		_UIDrawDialogueFrame	2927
+		_UIShowText	293B
+		_UIShowAvatar	297A
+		_UIShowChoice	2A9A
+		_UIShowMenu	2AC2
+		_UISetPos	2AEC
+		_UIMoveTo	2B03
+		_UIIsClosed	2B2A
+		_UIOnInteract	2B40
+		_UIAtDest	2B4E
+		_UISetColor	2B68
+		_main	2B7E
+		_startFuncs	2B85
+		_updateFuncs	2B91
+		_stateBanks	2B9D
+		_rand	2BA3
+		_randw	2BA3
+		__divsuchar	2BCE
+		__modsuchar	2BDD
+		__divuschar	2BE9
+		__moduschar	2BFB
+		__divschar	2C0B
+		__modschar	2C19
+		__divsint	2C25
+		__modsint	2C38
+		__divuchar	2C49
+		__moduchar	2C57
+		__divuint	2C63
+		__moduint	2C76
+		.mod8	2C87
+		.div8	2C87
+		.mod16	2C8F
+		.div16	2C8F
+		.modu8	2CC5
+		.divu8	2CC5
+		.modu16	2CC8
+		.divu16	2CC8
+		__mulsuchar	2D09
+		__muluschar	2D13
+		__mulschar	2D1D
+		__muluchar	2D30
+		__mulint	2D3D
+AREA _HEADER0
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HEADER1
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		.call_hl	0020
+AREA _HEADER2
+	RADIX HEX
+	BASE 0000
+	SIZE 0017
+	ATTRIB ABS CON
+	GLOBALS
+		banked_call	0028
+AREA _HEADER3
+	RADIX HEX
+	BASE 0000
+	SIZE 0008
+	ATTRIB ABS CON
+AREA _HEADER4
+	RADIX HEX
+	BASE 0000
+	SIZE 0008
+	ATTRIB ABS CON
+AREA _HEADER5
+	RADIX HEX
+	BASE 0000
+	SIZE 0008
+	ATTRIB ABS CON
+AREA _HEADER6
+	RADIX HEX
+	BASE 0000
+	SIZE 0008
+	ATTRIB ABS CON
+AREA _HEADER7
+	RADIX HEX
+	BASE 0000
+	SIZE 001A
+	ATTRIB ABS CON
+AREA _HEADER8
+	RADIX HEX
+	BASE 0000
+	SIZE 0034
+	ATTRIB ABS CON
+AREA _HEADER9
+	RADIX HEX
+	BASE 0000
+	SIZE 0006
+	ATTRIB ABS CON
+AREA _HEADERa
+	RADIX HEX
+	BASE 0000
+	SIZE 0003
+	ATTRIB ABS CON
+AREA _HEADERb
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HEADERc
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HEADERd
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HEADERe
+	RADIX HEX
+	BASE 0000
+	SIZE 0002
+	ATTRIB ABS CON
+AREA _HEADERf
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HEADER10
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HEADER11
+	RADIX HEX
+	BASE 0000
+	SIZE 0002
+	ATTRIB ABS CON
+AREA _HEADER12
+	RADIX HEX
+	BASE 0000
+	SIZE 0083
+	ATTRIB ABS CON
+	GLOBALS
+		_exit	01D0
+AREA _HEADER13
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+AREA _HOME
+	RADIX HEX
+	BASE 2D65
+	SIZE 0219
+	ATTRIB REL CON
+	GLOBALS
+		.set_mode	2D65
+		.remove_VBL	2D75
+		.remove_TIM	2D7B
+		.remove_SIO	2D81
+		.remove_JOY	2D87
+		.add_VBL	2D8D
+		.add_TIM	2D93
+		.add_SIO	2D99
+		.add_JOY	2D9F
+		.remove_int	2DA5
+		.add_int	2DC4
+		.wait_vbl_done	2DE0
+		_wait_vbl_done	2DE0
+		_display_off	2DF7
+		.display_off	2DF7
+		.serial_IO	2E18
+		_mode	2E47
+		_get_mode	2E50
+		_enable_interrupts	2E55
+		_disable_interrupts	2E57
+		_reset	2E59
+		.reset	2E59
+		_set_interrupts	2E5F
+		_remove_VBL	2E6A
+		_remove_TIM	2E75
+		_remove_SIO	2E80
+		_remove_JOY	2E8B
+		_add_VBL	2E96
+		_add_TIM	2EA1
+		_add_SIO	2EAC
+		_add_JOY	2EB7
+		_clock	2EC2
+		__printTStates	2ECB
+		banked_ret	2ECC
+		_BGB_profiler_message	2ED4
+		_strcat	2F1C
+		_strlen	2F5F
+AREA _BASE
+	RADIX HEX
+	BASE 2F7E
+	SIZE 026D
+	ATTRIB REL CON
+	GLOBALS
+		.set_sprite_prop	2F7E
+		_set_sprite_prop	2F8B
+		_strcpy	2F96
+		_initrand	2FA8
+		.initrand	2FAA
+		.mv_sprite	2FB3
+		_move_sprite	2FC2
+		_set_win_tiles	2FCF
+		_add_LCD	3009
+		.add_LCD	3014
+		_remove_LCD	301A
+		.remove_LCD	3025
+		_set_win_data	302B
+		_set_bkg_data	302B
+		_set_sprite_data	3033
+		.padup	30A9
+		_waitpadup	30A9
+		.jpad	30B9
+		.wait_pad	30E6
+		_joypad	30ED
+		_waitpad	30F2
+		___sdcc_call_hl	30FC
+		___memcpy	30FD
+		_memcpy	30FD
+		.memcpy	310E
+		.set_sprite_tile	3147
+		_set_sprite_tile	3154
+		.copy_vram	315F
+		_get_data	316E
+		_set_data	316E
+		.set_xy_wtt	3181
+		.set_xy_btt	3192
+		.set_xy_tt	31A1
+		_set_tiles	31D2
+AREA _LIT
+	RADIX HEX
+	BASE 31EB
+	SIZE 0000
+	ATTRIB REL CON
+AREA _GSINIT
+	RADIX HEX
+	BASE 31EB
+	SIZE 0507
+	ATTRIB REL CON
+	GLOBALS
+		gsinit	31EB
+AREA _GSINITTAIL
+	RADIX HEX
+	BASE 36F2
+	SIZE 0001
+	ATTRIB REL CON
+AREA _GSFINAL
+	RADIX HEX
+	BASE 36F3
+	SIZE 0000
+	ATTRIB REL CON
+AREA _DATA
+	RADIX HEX
+	BASE C0A0
+	SIZE 0E1E
+	ATTRIB REL CON
+	GLOBALS
+		_actors_active_delete	C0A0
+		_actors_active_delete_count	C0AB
+		_actors	C0AC
+		_actor_ptrs	C63E
+		_actors_active	C67C
+		_actors_active_size	C687
+		_actor_move_settings	C688
+		_map_next_pos	C689
+		_map_next_dir	C68D
+		_map_next_sprite	C68F
+		_player_iframes	C691
+		_bank_stack	C692
+		_camera_pos	C69D
+		_camera_dest	C6A1
+		_camera_offset	C6A5
+		_camera_speed	C6A7
+		_camera_settings	C6A8
+		_camera_deadzone	C6A9
+		_game_time	C6AB
+		_next_state	C6AC
+		_delta_time	C6AE
+		_current_state	C6AF
+		_state_running	C6B1
+		_vbl_count	C6B2
+		_old_scroll_x	C6B3
+		_old_scroll_y	C6B5
+		_music_mute_frames	C6B7
+		_bank_ptr	C6B8
+		_image_bank	C6BB
+		_image_attr_bank	C6BC
+		_collision_bank	C6BD
+		_image_ptr	C6BE
+		_image_attr_ptr	C6C0
+		_collision_ptr	C6C2
+		_image_tile_width	C6C4
+		_image_tile_height	C6C5
+		_image_width	C6C6
+		_image_height	C6C8
+		_sprites_len	C6CA
+		_actors_len	C6CB
+		_scene_type	C6CC
+		_scene_events_start_ptr	C6CD
+		_fade_running	C6D2
+		_fade_frames_per_step	C6D3
+		_fade_black	C6D4
+		_fade_timer	C6D5
+		gbt_playing	C6D6
+		gbt_song	C6D7
+		gbt_bank	C6D9
+		gbt_speed	C6DA
+		gbt_temp_play_data	C6DB
+		gbt_loop_enabled	C6E7
+		gbt_ticks_elapsed	C6E8
+		gbt_current_step	C6E9
+		gbt_current_pattern	C6EA
+		gbt_current_step_data_ptr	C6EB
+		gbt_channels_enabled	C6ED
+		gbt_pan	C6EE
+		gbt_vol	C6F2
+		gbt_instr	C6F6
+		gbt_freq	C6FA
+		gbt_channel3_loaded_instrument	C700
+		gbt_arpeggio_freq_index	C701
+		gbt_arpeggio_enabled	C70A
+		gbt_arpeggio_tick	C70D
+		gbt_sweep	C710
+		gbt_cut_note_tick	C713
+		gbt_have_to_stop_next_step	C717
+		gbt_update_pattern_pointers	C718
+		_joy	C719
+		_last_joy	C71A
+		_recent_joy	C71B
+		_await_input	C71C
+		_input_wait	C71D
+		_input_script_ptrs	C71E
+		_input_script_persist	C736
+		_input_override_default	C737
+		_current_index	C738
+		_tone_frames	C739
+		_palette_dirty	C73A
+		_palette_update_mask	C73B
+		_SprPalette	C73C
+		_BkgPalette	C77C
+		_SprPaletteBuffer	C7BC
+		_BkgPaletteBuffer	C7FC
+		_projectiles	C83C
+		_current_projectile	C8AA
+		_RAMPtr	C8AB
+		_scene_stack_ptr	C8AD
+		_scene_stack	C8AE
+		_emote_timer	C8EE
+		_shake_time	C8EF
+		_should_shake_x	C8F0
+		_should_shake_y	C8F1
+		_after_lock_camera	C8F2
+		_tmp_actor	C8F3
+		_script_ctx_pool	C8F5
+		_active_script_ctx	C901
+		_script_main_ctx_actor	C919
+		_script_cmd_args	C91A
+		_script_cmd_args_len	C921
+		_script_stack_ptr	C922
+		_script_stack	C923
+		_script_bank_stack	C933
+		_script_start_stack	C93B
+		_script_ctxs	C94B
+		_active_script_ctx_index	CA6B
+		_script_ctx_ptr	CA6C
+		_timer_script_duration	CA6E
+		_timer_script_time	CA6F
+		_timer_script_ptr	CA70
+		_ctx_cmd_remaining	CA73
+		_scroll_x	CA74
+		_scroll_y	CA76
+		_draw_scroll_x	CA78
+		_draw_scroll_y	CA7A
+		_scroll_x_max	CA7C
+		_scroll_y_max	CA7E
+		_scroll_offset_x	CA80
+		_scroll_offset_y	CA82
+		_pending_h_x	CA84
+		_pending_h_y	CA86
+		_pending_h_i	CA88
+		_pending_h_map	CA89
+		_pending_w_map	CA8B
+		_pending_w_x	CA8D
+		_pending_w_y	CA8F
+		_pending_w_i	CA91
+		_scroll_target	CA92
+		_sprite_active_pool	CA94
+		_sprite_active_pool_size	CAA7
+		_sprites_info	CAA8
+		_sprite_pool	CAF3
+		_hide_sprites	CB07
+		_triggers	CB08
+		_triggers_active	CBE1
+		_triggers_active_size	CBEC
+		_triggers_len	CBED
+		_last_trigger_tx	CBEE
+		_last_trigger_ty	CBEF
+		_current_text_speed	CBF0
+		_ui_block	CBF1
+		_win_pos_x	CBF2
+		_win_pos_y	CBF3
+		_win_dest_pos_x	CBF4
+		_win_dest_pos_y	CBF5
+		_win_speed	CBF6
+		_text_x	CBF7
+		_text_y	CBF8
+		_text_drawn	CBF9
+		_text_count	CBFA
+		_text_tile_count	CBFB
+		_text_wait	CBFC
+		_text_in_speed	CBFD
+		_text_out_speed	CBFE
+		_text_draw_speed	CBFF
+		_text_ff_joypad	CC00
+		_tmp_text_in_speed	CC01
+		_tmp_text_out_speed	CC02
+		_text_num_lines	CC03
+		_avatar_enabled	CC04
+		_menu_enabled	CC05
+		_menu_index	CC06
+		_menu_flag	CC07
+		_menu_num_options	CC09
+		_menu_cancel_on_last_option	CC0A
+		_menu_cancel_on_b	CC0B
+		_menu_layout	CC0C
+		_text_lines	CC0D
+		_tmp_text_lines	CC5D
+		_start_scene_index	CCAD
+		_start_scene_x	CCAF
+		_start_scene_y	CCB1
+		_start_scene_dir_x	CCB3
+		_start_scene_dir_y	CCB4
+		_start_player_sprite	CCB5
+		_start_player_move_speed	CCB7
+		_start_player_anim_speed	CCB8
+		_start_fade_style	CCB9
+		_script_variables	CCBA
+		_grounded	CEB0
+		_on_ladder	CEB1
+		_pl_vel_x	CEB2
+		_pl_vel_y	CEB4
+		_pl_pos_x	CEB6
+		_pl_pos_y	CEB8
+		_last_hit_trigger	CEBA
+		_shooter_horizontal	CEBB
+		_shooter_direction	CEBC
+		_shooter_reached_end	CEBD
+AREA _BSS
+	RADIX HEX
+	BASE CEBE
+	SIZE 005A
+	ATTRIB REL CON
+	GLOBALS
+		__cpu	CEBE
+		.mode	CEBF
+		__io_out	CEC0
+		__io_in	CEC1
+		__io_status	CEC2
+		.vbl_done	CEC3
+		_sys_time	CEC4
+		.sys_time	CEC4
+		.int_0x40	CEC6
+		.int_0x48	CED6
+		.int_0x50	CEE6
+		.int_0x58	CEF6
+		.int_0x60	CF06
+		.randhi	CF16
+		.randlo	CF17
+AREA _HEAP
+	RADIX HEX
+	BASE CF18
+	SIZE 0000
+	ATTRIB REL CON
+	GLOBALS
+		_malloc_heap_start	CF18
+AREA _HRAM14
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		__current_bank	FF90
+AREA _CODE_1
+	RADIX HEX
+	BASE 4000
+	SIZE 34F1
+	ATTRIB REL CON
+	GLOBALS
+		_ActivateActor_b	4000
+		_DeactivateActor_b	40EC
+		_ActorInFrontOfActor_b	418B
+		_CheckCollisionInDirection_b	42AA
+		_ActorAtTile_b	43F5
+		_ActorAt1x2Tile_b	44E2
+		_ActorAt1x3Tile_b	459D
+		_ActorAt3x1Tile_b	467B
+		_ActorOverlapsPlayer_b	475B
+		_InitPlayer_b	488D
+		_ActorRunCollisionScripts_b	4960
+		_ApplyPaletteChangeDMG	4A37
+		_FadeIn_b	4A94
+		_FadeOut_b	4AB0
+		_FadeUpdate_b	4ACC
+		_ApplyPaletteChange_b	4B0F
+		gbt_channel_1_handle	4C36
+		gbt_channel_2_handle	4E08
+		gbt_channel_3_handle	4FD2
+		gbt_channel_4_handle	51A1
+		gbt_update_bank1	52B2
+		gbt_update_effects_bank1	52CE
+		_ProjectilesInit_b	52EB
+		_WeaponAttack_b	5329
+		_ProjectileLaunch_b	56C5
+		_UpdateProjectiles_b	594B
+		_RefreshScroll_b	5FF8
+		_SpritePoolReset_b	6225
+		_SpritePoolReturn_b	626F
+		_SpritePoolNext_b	62F1
+		_TriggerAtTile_b	630D
+		_UIInit_b	63C2
+		_ui_frame_tl_tiles	640B
+		_ui_frame_bl_tiles	640C
+		_ui_frame_tr_tiles	640D
+		_ui_frame_br_tiles	640E
+		_ui_frame_t_tiles	640F
+		_ui_frame_b_tiles	6410
+		_ui_frame_l_tiles	6411
+		_ui_frame_r_tiles	6412
+		_ui_frame_bg_tiles	6413
+		_ui_colors	6414
+		_ui_white	66E4
+		_ui_black	66F4
+		_ui_cursor_tiles	6704
+		_ui_bg_tiles	6705
+		_win_tiles	6706
+		_text_draw_speeds	686E
+		_UIReset_b	6874
+		_UIUpdate_b	6881
+		_UIDrawFrame_b	692C
+		_UIDrawDialogueFrame_b	6AFD
+		_UISetColor_b	6B0F
+		_UIShowText_b	6B9E
+		_UIDrawTextBufferChar_b	6F56
+		_UICloseDialogue_b	719B
+		_UIOnInteract_b	71E2
+		_UIShowMenu_b	743D
+		_UIDrawMenuCursor_b	7491
+AREA _CODE_4
+	RADIX HEX
+	BASE 4000
+	SIZE 33CD
+	ATTRIB REL CON
+	GLOBALS
+		_ScriptTimerUpdate_b	4000
+		_emote_offsets	4040
+		_script_cmds	4078
+		_ScriptUpdate_MoveActor	41B9
+		_ScriptUpdate_MoveActorDiag	4499
+		_ScriptUpdate_AwaitFade	4742
+		_ScriptUpdate_AwaitUIClosed	4750
+		_ScriptUpdate_AwaitUIAtDest	4753
+		_ScriptUpdate_AwaitInputPres	4756
+		_ScriptUpdate_Wait	4775
+		_ScriptUpdate_Emote	4784
+		_ScriptUpdate_MoveCamera	4859
+		_ScriptUpdate_CamShake	495F
+		_Script_Noop_b	49AD
+		_Script_End_b	49AE
+		_Script_Text_b	49BA
+		_Script_Goto_b	49E6
+		_Script_IfFlag_b	4A0F
+		_Script_IfValue_b	4A56
+		_Script_SetFlag_b	4B08
+		_Script_ClearFlag_b	4B27
+		_Script_ActorSetDir_b	4B48
+		_Script_ActorActivate_b	4BFC
+		_Script_CameraMoveTo_b	4C11
+		_Script_CameraLock_b	4C97
+		_ScriptHelper_ClampCamDest	4D00
+		_Script_Wait_b	4E51
+		_Script_FadeOut_b	4E61
+		_Script_FadeIn_b	4E76
+		_Script_FadeSetSettings_b	4E8B
+		_Script_LoadScene_b	4E94
+		_Script_ActorSetPos_b	4F38
+		_Script_ActorMoveTo_b	4F99
+		_ScriptHelper_CalcDest	5045
+		_Script_ShowSprites_b	538E
+		_Script_HideSprites_b	539A
+		_Script_ActorShow_b	53A6
+		_Script_ActorHide_b	53CE
+		_Script_ActorSetCollisions_b	53F8
+		_Script_ActorSetEmote_b	541B
+		_Script_CameraShake_b	54AC
+		_Script_ShowOverlay_b	54CC
+		_Script_HideOverlay_b	54EC
+		_Script_OverlaySetPos_b	54F9
+		_Script_OverlayMoveTo_b	5510
+		_Script_AwaitInput_b	5536
+		_Script_MusicPlay_b	5547
+		_Script_MusicStop_b	555C
+		_Script_ResetVariables_b	5565
+		_Script_NextFrame_b	5582
+		_Script_IncFlag_b	5588
+		_Script_DecFlag_b	55AE
+		_Script_SetFlagValue_b	55D5
+		_Script_SetFlagProperty_b	55F8
+		_Script_IfInput_b	56F5
+		_Script_Choice_b	5727
+		_Script_TextMenu_b	5774
+		_Script_PlayerBounce_b	57DE
+		_Script_ActorSetSprite_b	5806
+		_Script_PlayerSetSprite_b	591F
+		_Script_ActorPush_b	59AB
+		_Script_IfActorPos_b	5B0A
+		_Script_SaveData_b	5B86
+		_Script_LoadData_b	5CB0
+		_Script_ClearData_b	5E11
+		_Script_IfSavedData_b	5E28
+		_Script_IfActorDirection_b	5E70
+		_Script_IfActorRelActor_b	5EE9
+		_Script_SetFlagRandomValue_b	60CB
+		_Script_ActorGetPos_b	6117
+		_Script_ActorSetPosToVal_b	618C
+		_Script_ActorMoveToVal_b	6243
+		_Script_ActorMoveRel_b	6322
+		_Script_ActorSetPosRel_b	652E
+		_Script_MathAdd_b	6653
+		_Script_MathSub_b	667B
+		_Script_MathMul_b	66AA
+		_Script_MathDiv_b	66DE
+		_Script_MathMod_b	6712
+		_Script_MathAddVal_b	6746
+		_Script_MathSubVal_b	67AE
+		_Script_MathMulVal_b	67EB
+		_Script_MathDivVal_b	6820
+		_Script_MathModVal_b	6855
+		_Script_CopyVal_b	688A
+		_Script_IfValueCompare_b	68AD
+		_Script_LoadVectors_b	6952
+		_Script_ActorSetMoveSpeed_b	698B
+		_Script_ActorSetAnimSpeed_b	69AC
+		_Script_TextSetAnimSpeed_b	69CF
+		_Script_ActorInvoke_b	69FA
+		_Script_StackPush_b	6A3C
+		_Script_StackPop_b	6AC4
+		_Script_ScenePushState_b	6B05
+		_Script_ScenePopState_b	6C20
+		_Script_SceneResetStack_b	6D1B
+		_Script_ScenePopAllState_b	6D21
+		_Script_SetInputScript_b	6E09
+		_Script_RemoveInputScript_b	6E86
+		_Script_ActorSetFrame_b	6EC0
+		_Script_ActorSetFrameToVal_b	6F40
+		_Script_ActorSetFlip_b	6FD9
+		_Script_TextMulti_b	6FDA
+		_Script_VariableAddFlags_b	7027
+		_Script_VariableClearFlags_b	704F
+		_Script_SoundPlayTone_b	7078
+		_Script_SoundStopTone_b	70A4
+		_Script_SoundPlayBeep_b	70A7
+		_Script_SoundPlayCrash_b	70B1
+		_Script_SetTimerScript_b	70B4
+		_Script_ResetTimer_b	70E8
+		_Script_RemoveTimerScript_b	70F3
+		_Script_TextWithAvatar_b	70F9
+		_Script_LaunchProjectile_b	7133
+		_Script_WeaponAttack_b	725E
+		_Script_PalSetBackground_b	72B4
+		_Script_PalSetSprite_b	72DE
+		_Script_PalSetUI_b	7300
+		_Script_ActorStopUpdate_b	7322
+		_Script_ActorSetAnimate_b	7379
+		_Script_IfColorSupported_b	739C
+AREA _OVERLAY
+	RADIX HEX
+	BASE 73CD
+	SIZE 0000
+	ATTRIB REL CON
+AREA _ISEG
+	RADIX HEX
+	BASE 73CD
+	SIZE 0000
+	ATTRIB REL CON
+AREA _BSEG
+	RADIX HEX
+	BASE 73CD
+	SIZE 0000
+	ATTRIB REL CON
+AREA _XSEG
+	RADIX HEX
+	BASE 73CD
+	SIZE 0000
+	ATTRIB REL CON
+AREA _CODE_6
+	RADIX HEX
+	BASE 4000
+	SIZE 2287
+	ATTRIB REL CON
+	GLOBALS
+		_bank_6_data	4000
+AREA _CODE_5
+	RADIX HEX
+	BASE 4000
+	SIZE 1FD6
+	ATTRIB REL CON
+	GLOBALS
+		_tileset_bank_ptrs	4000
+		_background_bank_ptrs	4003
+		_background_attr_bank_ptrs	400C
+		_palette_bank_ptrs	4015
+		_sprite_bank_ptrs	4018
+		_scene_bank_ptrs	401E
+		_collision_bank_ptrs	4027
+		_avatar_bank_ptrs	4030
+		_music_tracks	4033
+		_music_banks	4037
+		_Start_Adventure	4039
+		_Update_Adventure	404E
+		_Start_Platform	4635
+		_Update_Platform	4700
+		_Start_PointNClick	52C0
+		_Update_PointNClick	52E9
+		_Start_Shmup	559D
+		_Update_Shmup	562A
+		_Start_TopDown	5BC9
+		_Update_TopDown	5BDE
+AREA _SFR0
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_P1_REG	FF00
+AREA _SFR1
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_SB_REG	FF01
+AREA _SFR2
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_SC_REG	FF02
+AREA _SFR3
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_DIV_REG	FF04
+AREA _SFR4
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_TIMA_REG	FF05
+AREA _SFR5
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_TMA_REG	FF06
+AREA _SFR6
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_TAC_REG	FF07
+AREA _SFR7
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_IF_REG	FF0F
+AREA _SFR8
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR10_REG	FF10
+AREA _SFR9
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR11_REG	FF11
+AREA _SFRa
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR12_REG	FF12
+AREA _SFRb
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR13_REG	FF13
+AREA _SFRc
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR14_REG	FF14
+AREA _SFRd
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR21_REG	FF16
+AREA _SFRe
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR22_REG	FF17
+AREA _SFRf
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR23_REG	FF18
+AREA _SFR10
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR24_REG	FF19
+AREA _SFR11
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR30_REG	FF1A
+AREA _SFR12
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR31_REG	FF1B
+AREA _SFR13
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR32_REG	FF1C
+AREA _SFR14
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR33_REG	FF1D
+AREA _SFR15
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR34_REG	FF1E
+AREA _SFR16
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR41_REG	FF20
+AREA _SFR17
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR42_REG	FF21
+AREA _SFR18
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR43_REG	FF22
+AREA _SFR19
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR44_REG	FF23
+AREA _SFR1a
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR50_REG	FF24
+AREA _SFR1b
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR51_REG	FF25
+AREA _SFR1c
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_NR52_REG	FF26
+AREA _SFR1d
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_LCDC_REG	FF40
+AREA _SFR1e
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_STAT_REG	FF41
+AREA _SFR1f
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_SCY_REG	FF42
+AREA _SFR20
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_SCX_REG	FF43
+AREA _SFR21
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_LY_REG	FF44
+AREA _SFR22
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_LYC_REG	FF45
+AREA _SFR23
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_DMA_REG	FF46
+AREA _SFR24
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_BGP_REG	FF47
+AREA _SFR25
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_OBP0_REG	FF48
+AREA _SFR26
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_OBP1_REG	FF49
+AREA _SFR27
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_WY_REG	FF4A
+AREA _SFR28
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_WX_REG	FF4B
+AREA _SFR29
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_KEY1_REG	FF4D
+AREA _SFR2a
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_VBK_REG	FF4F
+AREA _SFR2b
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_HDMA1_REG	FF51
+AREA _SFR2c
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_HDMA2_REG	FF52
+AREA _SFR2d
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_HDMA3_REG	FF53
+AREA _SFR2e
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_HDMA4_REG	FF54
+AREA _SFR2f
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_HDMA5_REG	FF55
+AREA _SFR30
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_RP_REG	FF56
+AREA _SFR31
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_BCPS_REG	FF68
+AREA _SFR32
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_BCPD_REG	FF69
+AREA _SFR33
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_OCPS_REG	FF6A
+AREA _SFR34
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_OCPD_REG	FF6B
+AREA _SFR35
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_SVBK_REG	FF70
+AREA _SFR36
+	RADIX HEX
+	BASE 0000
+	SIZE 0001
+	ATTRIB ABS CON
+	GLOBALS
+		_IE_REG	FFFF
+AREA _EMU_HEADER0
+	RADIX HEX
+	BASE 0000
+	SIZE 0003
+	ATTRIB ABS CON
+AREA _HEADER_LCD0
+	RADIX HEX
+	BASE 0000
+	SIZE 0003
+	ATTRIB ABS CON
+AREA .  .ABS.
+	RADIX HEX
+	BASE 0000
+	SIZE 0000
+	ATTRIB ABS OVR
+	GLOBALS
+		.__.ABS.	0000
+MODULES
+	FILE /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+		NAME Runtime
+	FILE /tmp/_gbsbuild/obj/Actor_a.o
+	FILE /tmp/_gbsbuild/obj/Actor_b.o
+		NAME _tmp_lcc46691
+	FILE /tmp/_gbsbuild/obj/Actor.o
+		NAME _tmp_lcc46731
+	FILE /tmp/_gbsbuild/obj/asm.macros.o
+	FILE /tmp/_gbsbuild/obj/BankData.o
+		NAME _tmp_lcc46791
+	FILE /tmp/_gbsbuild/obj/BankManager.o
+		NAME _tmp_lcc46831
+	FILE /tmp/_gbsbuild/obj/Camera_a.o
+	FILE /tmp/_gbsbuild/obj/Camera.o
+		NAME _tmp_lcc46891
+	FILE /tmp/_gbsbuild/obj/Collision.o
+		NAME _tmp_lcc46931
+	FILE /tmp/_gbsbuild/obj/Core_Main.o
+		NAME _tmp_lcc46971
+	FILE /tmp/_gbsbuild/obj/DataManager.o
+		NAME _tmp_lcc47011
+	FILE /tmp/_gbsbuild/obj/FadeManager_b.o
+		NAME _tmp_lcc47051
+	FILE /tmp/_gbsbuild/obj/FadeManager.o
+		NAME _tmp_lcc47091
+	FILE /tmp/_gbsbuild/obj/gbt_player_bank1.o
+	FILE /tmp/_gbsbuild/obj/gbt_player.o
+	FILE /tmp/_gbsbuild/obj/Input.o
+		NAME _tmp_lcc47171
+	FILE /tmp/_gbsbuild/obj/Math.o
+		NAME _tmp_lcc47211
+	FILE /tmp/_gbsbuild/obj/MusicManager.o
+		NAME _tmp_lcc47251
+	FILE /tmp/_gbsbuild/obj/Palette.o
+		NAME _tmp_lcc47291
+	FILE /tmp/_gbsbuild/obj/Projectiles_b.o
+		NAME _tmp_lcc47331
+	FILE /tmp/_gbsbuild/obj/Projectiles.o
+		NAME _tmp_lcc47371
+	FILE /tmp/_gbsbuild/obj/ScriptRunner_b.o
+		NAME _tmp_lcc47411
+	FILE /tmp/_gbsbuild/obj/ScriptRunner.o
+		NAME _tmp_lcc47451
+	FILE /tmp/_gbsbuild/obj/Scroll_a.o
+	FILE /tmp/_gbsbuild/obj/Scroll_b.o
+		NAME _tmp_lcc47511
+	FILE /tmp/_gbsbuild/obj/Scroll.o
+		NAME _tmp_lcc47551
+	FILE /tmp/_gbsbuild/obj/Sprite_b.o
+		NAME _tmp_lcc47591
+	FILE /tmp/_gbsbuild/obj/Sprite.o
+		NAME _tmp_lcc47631
+	FILE /tmp/_gbsbuild/obj/Stack.o
+		NAME _tmp_lcc47671
+	FILE /tmp/_gbsbuild/obj/Trigger_b.o
+		NAME _tmp_lcc47711
+	FILE /tmp/_gbsbuild/obj/Trigger.o
+		NAME _tmp_lcc47751
+	FILE /tmp/_gbsbuild/obj/UI_b.o
+		NAME _tmp_lcc47791
+	FILE /tmp/_gbsbuild/obj/UI.o
+		NAME _tmp_lcc47831
+	FILE /tmp/_gbsbuild/obj/bank_6.o
+		NAME bank_6
+	FILE /tmp/_gbsbuild/obj/data_ptrs.o
+		NAME _tmp_lcc143191
+	FILE /tmp/_gbsbuild/obj/main.o
+		NAME _tmp_lcc47911
+	FILE /tmp/_gbsbuild/obj/Adventure.o
+		NAME _tmp_lcc47951
+	FILE /tmp/_gbsbuild/obj/Platform.o
+		NAME _tmp_lcc47991
+	FILE /tmp/_gbsbuild/obj/PointNClick.o
+		NAME _tmp_lcc48121
+	FILE /tmp/_gbsbuild/obj/Shmup.o
+		NAME _tmp_lcc48161
+	FILE /tmp/_gbsbuild/obj/TopDown.o
+		NAME _tmp_lcc48201
+LIBRARIES
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE sfr.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE set_prop.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE _strcpy.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE rand.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE mv_spr.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE bgb_emu.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE div.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE mul.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE set_wi_t.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE lcd.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE set_data.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE pad.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE __sdcc_call_hl.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE _memcpy.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE set_spr.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE strcat.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+		MODULE strlen.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE cpy_data.o
+	LIBRARY /tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+		MODULE set_xy_t.o
+USERBASEDEF
+	_CODE=0x0200
+	_DATA=0xC0A0
+	_CODE_1=0x4000
+	_CODE_2=0x4000
+	_CODE_3=0x4000
+	_CODE_4=0x4000
+	_CODE_5=0x4000
+	_CODE_6=0x4000
+	_CODE_7=0x4000
+	_DATA_0=0xA000
+	_DATA_1=0xA000
+	_DATA_2=0xA000
+	_DATA_3=0xA000
+USERGLOBALDEF
+	.OAM=0xC000
+	.STACK=0xE000
+	.refresh_OAM=0xFF80
+	.init=0x0000
